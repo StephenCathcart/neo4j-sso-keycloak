@@ -1,7 +1,6 @@
 # neo4j-sso-keycloak
 Example project for configuring Neo4j with Keycloak
 
-I wrote a docker-compose file which sets most of this up when working on Workspace/NX, I suggest we copy this to our repository and put some of the configuration on a diet, for now -
 - Clone `git@github.com:StephenCathcart/neo4j-sso-keycloak.git`
 - Run `docker-compose -f docker-compose.yml up -d --remove-orphans` from the root of the project.
 
