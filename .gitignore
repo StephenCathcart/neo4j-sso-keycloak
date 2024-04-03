@@ -1,0 +1,6 @@
+certificates/cacerts
+certificates/*.pem
+neo4j_data
+keycloak_data
+.DS_Store
+

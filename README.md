@@ -2,6 +2,7 @@
 Example project for configuring Neo4j with Keycloak
 
 - Clone `git@github.com:StephenCathcart/neo4j-sso-keycloak.git`
+- Run `./generate-certificates.sh` from the root of the project, it will generate the necessary certificates.
 - Run `docker-compose -f docker-compose.yml up -d --remove-orphans` from the root of the project.
 
 This will start up 5 containers - Neo4j, Keycloak, and Postgres (used as a repository for Keycloak), and two config containers.
